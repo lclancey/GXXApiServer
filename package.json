@@ -1,0 +1,34 @@
+{
+  "name": "gxxapiserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qianyeLC/GXXApiServer.git"
+  },
+  "author": "qianyeLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qianyeLC/GXXApiServer/issues"
+  },
+  "homepage": "https://github.com/qianyeLC/GXXApiServer#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "@serialport/parser-inter-byte-timeout": "^8.0.6",
+    "@types/hapi": "^18.0.3",
+    "@types/koa": "^2.11.2",
+    "@types/koa-router": "^7.4.0",
+    "@types/node": "^13.9.1",
+    "hapi": "^18.1.0",
+    "koa": "^2.11.0",
+    "net": "^1.0.2",
+    "serialport": "^8.0.7"
+  },
+  "devDependencies": {
+    "@types/crc": "^3.4.0"
+  }
+}
